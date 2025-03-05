@@ -16,11 +16,11 @@ body {
   width: 100%;
 }
 
-body{
-  border-color: #F7F7F7;
+body {
+  border-color: #f7f7f7;
 }
 
-.nav{
+.nav {
   width: 100%;
   position: fixed;
   z-index: 99;
@@ -30,23 +30,23 @@ body{
   padding: 25px;
 }
 
-.nav .nav-part1{
+.nav .nav-part1 {
   height: 80px;
   overflow: hidden;
 }
 
-.nav .nav-part1 svg{
+.nav .nav-part1 svg {
   display: block;
 }
 
-.nav .nav-part2{
+.nav .nav-part2 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
 
-.nav-part2 .links a{
+.nav-part2 .links a {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
@@ -55,23 +55,23 @@ body{
   margin: 0 2vw;
 }
 
-.nav-part2 .icons i{
+.nav-part2 .icons i {
   font-size: 20px;
   font-weight: 100;
   margin: 0 2vw;
 }
 
-.links{
+.links {
   padding: 10px;
 }
 
-.icons{
+.icons {
   padding: 10px;
   border-radius: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
-.cursor{
+.cursor {
   height: 180px;
   width: 180px;
   background-color: whitesmoke;
@@ -125,7 +125,7 @@ body{
 }
 
 .page2 {
-  min-height  : 100vh;
+  min-height: 100vh;
   width: 100%;
   position: relative;
   padding: 3vw 1vw;
@@ -151,7 +151,7 @@ body{
   scale: 1.1;
 }
 
-.page2 .elem .dets{
+.page2 .elem .dets {
   height: 65px;
   width: 70%;
   border-radius: 50px;
@@ -166,17 +166,13 @@ body{
   padding: 0px 1vw;
 }
 
-.page2 .elem .dets span{
+.page2 .elem .dets span {
   font-weight: 600;
 }
 
-.page2 .elem .dets .dot{
+.page2 .elem .dets .dot {
   font-size: 40px;
 }
-
-/* .page2 .elem .dets:hover{
-  height: 100px;
-} */
 
 .page3 {
   min-height: 120vh;
@@ -188,7 +184,7 @@ body{
   flex-wrap: wrap;
 }
 
-.child{
+.child {
   height: 54vh;
   width: 38vw;
   position: relative;
@@ -197,14 +193,12 @@ body{
   justify-content: center;
 }
 
-.child img{
+.child img {
   height: 100%;
-
 }
 
 @media (max-width: 600px) {
-
-  .nav{
+  .nav {
     width: 100%;
     position: fixed;
     z-index: 99;
@@ -213,31 +207,31 @@ body{
     justify-content: space-between;
     padding: 10px;
   }
-  
-  .nav .nav-part1{
+
+  .nav .nav-part1 {
     height: 67px;
     overflow: hidden;
   }
-  
-  .nav .nav-part1 svg{
+
+  .nav .nav-part1 svg {
     display: block;
     height: 67px;
     width: 80px;
   }
 
-  .nav .nav-part1 .two-good-logo{
+  .nav .nav-part1 .two-good-logo {
     height: 40px;
     margin-left: -20px;
   }
-  
-  .nav .nav-part2{
+
+  .nav .nav-part2 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
   }
-  
-  .nav-part2 .links a{
+
+  .nav-part2 .links a {
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
@@ -245,24 +239,23 @@ body{
     font-size: 0.8vw;
     margin: 0 2vw;
   }
-  
-  .nav-part2 .icons i{
+
+  .nav-part2 .icons i {
     font-size: 20px;
     font-weight: 100;
     margin: 0 2vw;
   }
-  
-  .links{
+
+  .links {
     padding: 10px;
     display: none;
   }
-  
-  .icons{
+
+  .icons {
     padding: 10px;
     border-radius: 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
-  
 
   .page1 {
     min-height: 70vh;
@@ -293,7 +286,7 @@ body{
   }
 
   .page2 {
-    min-height  : 100vh;
+    min-height: 100vh;
     width: 100%;
     position: relative;
     padding: 5vw 3vw;
@@ -302,7 +295,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .page2 .elem {
     height: 100vh;
     width: 100%;
@@ -310,15 +303,36 @@ body{
     margin-bottom: 3vw;
   }
 
-  .page2 .elem .dets{
+  .page2 .elem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+  }
+
+  .page2 .elem .dets {
     height: 40px;
     width: 70%;
     border-radius: 50px;
     position: absolute;
     z-index: 9;
     background-color: palegoldenrod;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7vw;
+    padding: 0px 1vw;
   }
-  
+
+  .page2 .elem .dets span {
+    font-weight: 600;
+  }
+
+  .page2 .elem .dets .dot {
+    font-size: 30px;
+  }
+
   .page3 {
     min-height: 120vh;
     width: 100%;
@@ -328,8 +342,8 @@ body{
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-  
-  .child{
+
+  .child {
     height: 54vh;
     width: 88vw;
     position: relative;
@@ -338,9 +352,8 @@ body{
     align-items: center;
     justify-content: center;
   }
-  
-  .child img{
+
+  .child img {
     height: 100%;
-  
   }
 }
