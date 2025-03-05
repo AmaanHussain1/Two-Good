@@ -152,17 +152,31 @@ body{
 }
 
 .page2 .elem .dets{
-  height: 60px;
+  height: 65px;
   width: 70%;
   border-radius: 50px;
   position: absolute;
   z-index: 9;
   background-color: palegoldenrod;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4vw;
+  padding: 0px 1vw;
 }
 
-.page2 .elem .dets:hover{
-  height: 100px;
+.page2 .elem .dets span{
+  font-weight: 600;
 }
+
+.page2 .elem .dets .dot{
+  font-size: 40px;
+}
+
+/* .page2 .elem .dets:hover{
+  height: 100px;
+} */
 
 .page3 {
   min-height: 120vh;
